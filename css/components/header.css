@@ -1,11 +1,11 @@
 .header {
     background-color: #fff;
     position: fixed;
-    top: 20px;
+    top: 60px;
     left: 50%;
     transform: translate(-50%);
     /* 40px é a soma do espaçamento lateral da caixa do header segundo o template do figma (20px de cada lado) */
-    width: calc(100% - 40px);
+    width: calc(100% - 210px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
