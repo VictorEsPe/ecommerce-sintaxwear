@@ -37,32 +37,3 @@
     font-weight: 400;
     font-size: 1.25rem;
 }
-
-.btn {
-    font-size: 1.24rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
-    color: #fff;
-    padding: 10px 20px;
-    font-weight: 400;
-    transition: background-color 0.3s, border 0.3s;
-}
-
-.btn-outline {
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    line-height: 23px;
-}
-
-.btn-filled {
-    background-color: #fff;
-    color: #6329A2;
-}
-
-.btn:hover {
-    background-color: #6329A2;
-    color: #fff;
-    border-color: #6329A2;
-}
