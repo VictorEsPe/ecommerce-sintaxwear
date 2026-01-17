@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/components/hero.css">
     <link rel="stylesheet" href="./css/components/product-category.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
 
     <title>SintaxWear E-commerce</title>
     <meta name="description" content="Compre tênis e sneakers online na SintaxWear. 
@@ -116,7 +117,101 @@
     </main>
 
     <footer class="site-footer">
-      <!-- Informações de contato e links -->
+      <div class="footer-content">
+        <!-- Seção de Newsletter e Redes Sociais -->
+        <div class="column-right">
+          <form class="newsletter-form">
+            <label for="newsletter-input" class="newsletter-title">Inscreva-se em nosso e-mail</label>
+            <input 
+              id="newsletter-input"
+              type="email" 
+              class="newsletter-input" 
+              placeholder="email@email.com" 
+              required
+              aria-label="Inscreva-se na newsletter"
+            >
+          </form>
+
+          <!-- Seção de Redes Sociais -->
+          <div class="footer-social">
+            <h4>Redes sociais</h4>
+            <ul class="social-links">
+              <li>
+                <a href="#" aria-label="Instagram" title="Instagram">
+                  <img src="./images/icons/instagram.svg" alt="Instagram">
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="WhatsApp" title="WhatsApp">
+                  <img src="./images/icons/whatsapp.svg" alt="WhatsApp">
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="TikTok" title="TikTok">
+                  <img src="./images/icons/tiktok.svg" alt="TikTok">
+                </a>
+              </li>
+              <li>
+                <a href="#" aria-label="Facebook" title="Facebook">
+                  <img src="./images/icons/facebook.svg" alt="Facebook">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Seção de Categorias -->
+        <nav class="footer-nav">
+          <div class="nav-column">
+            <h4>Masculino</h4>
+            <ul>
+              <li><a href="#">Casual</a></li>
+              <li><a href="#">Esporte</a></li>
+              <li><a href="#">Moderno</a></li>
+              <li><a href="#">Futurista</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-column">
+            <h4>Feminino</h4>
+            <ul>
+              <li><a href="#">Casual</a></li>
+              <li><a href="#">Esporte</a></li>
+              <li><a href="#">Moderno</a></li>
+              <li><a href="#">Futurista</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-column">
+            <h4>Outlet</h4>
+            <ul>
+              <li><a href="#">Masculino</a></li>
+              <li><a href="#">Feminino</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-column">
+            <h4>Nossas lojas</h4>
+            <ul>
+              <li><a href="#">Loja Física</a></li>
+              <li><a href="#">Loja online</a></li>
+            </ul>
+          </div>
+
+          <div class="nav-column">
+            <h4>Sobre</h4>
+            <ul>
+              <li><a href="#">Quem somos</a></li>
+              <li><a href="#">Missão</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <hr>
+      <div class="footer-copy">
+        Copyright. All Rights Reserved
+      </div>
     </footer>
   </body>
 </html>
