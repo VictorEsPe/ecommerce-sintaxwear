@@ -1,103 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/variables.css">
-    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="/css/base.css" />
 
-    <link rel="stylesheet" href="./css/components/header.css">
-    <link rel="stylesheet" href="./css/components/hero.css">
-    <link rel="stylesheet" href="./css/components/product-category.css">
-    <link rel="stylesheet" href="./css/components/product-grid.css">
-    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/components/header.css" />
+    <link rel="stylesheet" href="./css/components/hero.css" />
+    <link rel="stylesheet" href="./css/components/product-category.css" />
+    <link rel="stylesheet" href="./css/components/product-grid.css" />
+    <link rel="stylesheet" href="./css/components/footer.css" />
 
     <title>SintaxWear E-commerce</title>
-    <meta name="description" content="Compre tênis e sneakers online na SintaxWear. 
-    Encontre os melhores modelos para todas as ocasiões com preços incríveis." />
+    <meta
+      name="description"
+      content="Compre tênis e sneakers online na SintaxWear. 
+    Encontre os melhores modelos para todas as ocasiões com preços incríveis."
+    />
   </head>
   <body>
     <header class="header">
       <h1>
         <a href="/" title="SintaxWear - Tênis e Sneakers Online">
-          <img src="./images/logo/Logo.svg
-          " alt="SintaxWear - Tênis e Sneakers Online" />
+          <img
+            src="./images/logo/Logo.svg
+          "
+            alt="SintaxWear - Tênis e Sneakers Online"
+          />
         </a>
       </h1>
 
-      <nav class="nav-center" aria-label="Categorias Principais">
-        <ul>
-          <li><a href="#">Masculino</a></li>
-          <li><a href="#">Feminino</a></li>
-          <li><a href="#">Outlet</a></li>
-        </ul>
-      </nav>
+      <input type="checkbox" class="menu-toggle" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">
+        <img src="./images/icons/menu-hamburguer.svg" alt="Menu mobile" />
+      </label>
 
-      <nav class="nav-right" aria-label="Acesso rápido">
-        <ul>
-          <li><a href="#">Nossas lojas</a></li>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#" aria-label="minha conta">
-            <img src="./images/icons/item-menu.svg" alt="Minha Conta">
-          </a></li>
-          <li><a href="#" aria-label="Ajuda">
-            <img src="./images/icons/help.svg" alt="Ajuda">
-          </a></li>
-          <li><a href="#" aria-label="Carrinho de compras">
-            <img src="./images/icons/bag-icon.svg" alt="Carrinho de compras">
-          </a></li>
-        </ul>
+      <nav class="nav-container" aria-label="Navegação principal">
+        <nav class="nav-center" aria-label="Categorias Principais">
+          <ul>
+            <li><a href="#">Masculino</a></li>
+            <li><a href="#">Feminino</a></li>
+            <li><a href="#">Outlet</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-right" aria-label="Acesso rápido">
+          <ul>
+            <li><a href="#">Nossas lojas</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li>
+              <a href="#" aria-label="minha conta">
+                <img src="./images/icons/item-menu.svg" alt="Minha Conta" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Ajuda">
+                <img src="./images/icons/help.svg" alt="Ajuda" />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Carrinho de compras">
+                <img
+                  src="./images/icons/bag-icon.svg"
+                  alt="Carrinho de compras"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </nav>
     </header>
 
     <main>
       <section class="hero-section">
         <!-- Seção hero -->
-         <div class="hero-overlay">
-           <div class="hero-content">
+        <div class="hero-overlay">
+          <div class="hero-content">
             <span class="hero-subtitle">Krypton One</span>
             <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-  
+
             <div class="hero-buttons">
               <a href="#" class="btn btn-outline">Ver modelos</a>
               <a href="#" class="btn btn-filled">Comprar</a>
             </div>
-           </div>
-         </div>
+          </div>
+        </div>
       </section>
 
       <section class="categories-section">
         <!-- Seção de categorias de tênis -->
-         <div class="category-card casual">
+        <div class="category-card casual">
           <a href="#" class="category-link">
             <span class="overlay"></span>
             <span class="category-name btn btn-outline">Casual</span>
           </a>
-         </div>
-         <div class="category-card esporte">
+        </div>
+        <div class="category-card esporte">
           <a href="#" class="category-link">
             <span class="overlay"></span>
             <span class="category-name btn btn-outline">Esporte</span>
           </a>
-         </div>
-         <div class="category-card moderno">
+        </div>
+        <div class="category-card moderno">
           <a href="#" class="category-link">
             <span class="overlay"></span>
             <span class="category-name btn btn-outline">Moderno</span>
           </a>
-         </div>
-         <div class="category-card futurista">
+        </div>
+        <div class="category-card futurista">
           <a href="#" class="category-link">
             <span class="overlay"></span>
             <span class="category-name btn btn-outline">Futurista</span>
           </a>
-         </div>
+        </div>
       </section>
 
       <section class="grid-section">
         <!-- Grid com produtos em destaque -->
-         <div class="card highlight">
+        <div class="card highlight">
           <div class="highlight-content">
             <h3 class="card-title">Krypton One</h3>
             <p class="card-subtitle">Estilo urbano com atitude</p>
@@ -107,12 +130,12 @@
               <a href="#" class="btn btn-filled">Masculino</a>
             </div>
           </div>
-         </div>
-         <div class="card top-right-card"></div>
-         <div class="card bottom-left-card"></div>
-         <div class="card model-card"></div>
-         <div class="card mid-right-card"></div>
-         <div class="card bottom-right-card"></div>
+        </div>
+        <div class="card top-right-card"></div>
+        <div class="card bottom-left-card"></div>
+        <div class="card model-card"></div>
+        <div class="card mid-right-card"></div>
+        <div class="card bottom-right-card"></div>
       </section>
     </main>
 
@@ -121,15 +144,17 @@
         <!-- Seção de Newsletter e Redes Sociais -->
         <div class="column-right">
           <form class="newsletter-form">
-            <label for="newsletter-input" class="newsletter-title">Inscreva-se em nosso e-mail</label>
-            <input 
+            <label for="newsletter-input" class="newsletter-title"
+              >Inscreva-se em nosso e-mail</label
+            >
+            <input
               id="newsletter-input"
-              type="email" 
-              class="newsletter-input" 
-              placeholder="email@email.com" 
+              type="email"
+              class="newsletter-input"
+              placeholder="email@email.com"
               required
               aria-label="Inscreva-se na newsletter"
-            >
+            />
           </form>
 
           <!-- Seção de Redes Sociais -->
@@ -138,29 +163,28 @@
             <ul class="social-links">
               <li>
                 <a href="#" aria-label="Instagram" title="Instagram">
-                  <img src="./images/icons/instagram.svg" alt="Instagram">
+                  <img src="./images/icons/instagram.svg" alt="Instagram" />
                 </a>
               </li>
               <li>
                 <a href="#" aria-label="WhatsApp" title="WhatsApp">
-                  <img src="./images/icons/whatsapp.svg" alt="WhatsApp">
+                  <img src="./images/icons/whatsapp.svg" alt="WhatsApp" />
                 </a>
               </li>
               <li>
                 <a href="#" aria-label="TikTok" title="TikTok">
-                  <img src="./images/icons/tiktok.svg" alt="TikTok">
+                  <img src="./images/icons/tiktok.svg" alt="TikTok" />
                 </a>
               </li>
               <li>
                 <a href="#" aria-label="Facebook" title="Facebook">
-                  <img src="./images/icons/facebook.svg" alt="Facebook">
+                  <img src="./images/icons/facebook.svg" alt="Facebook" />
                 </a>
               </li>
             </ul>
           </div>
         </div>
 
-        <!-- Seção de Categorias -->
         <nav class="footer-nav">
           <div class="nav-column">
             <h4>Masculino</h4>
@@ -208,10 +232,8 @@
         </nav>
       </div>
 
-      <hr>
-      <div class="footer-copy">
-        Copyright. All Rights Reserved
-      </div>
+      <hr />
+      <div class="footer-copy">Copyright. All Rights Reserved</div>
     </footer>
   </body>
 </html>
