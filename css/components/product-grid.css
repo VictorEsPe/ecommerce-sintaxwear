@@ -8,8 +8,7 @@
 
 .highlight {
     grid-area: highlight;
-    background-image: url(../../images/banners/Hero.jpg);
-    background-position: -100px;
+    background-image: url(../../images/products/highlight-card.jpg);
 }
 
 .top-right-card {
@@ -78,4 +77,31 @@
 .cta-group {
     display: flex;
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .grid-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+            "highlight highlight"
+            "bottom-left-card bottom-left-card"
+            "model-card mid-right-card"
+            "model-card bottom-right-card"
+            "top-right-card top-right-card";
+            max-width: 100%;
+            gap: 0.625rem;
+    }
+
+    .highlight {
+        min-height: 500px;
+    }
+
+    .bottom-left-card, .top-right-card {
+        min-height: 190px;
+    }
+
+    .model-card {
+        min-height: 370px;
+    }
 }
